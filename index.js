@@ -25,7 +25,7 @@ function findBy(array, findFn) {
     if (array[i] === findFn && array[i] == typeof findFn) {
       return array[i];
     } else {
-      return array[i];
+      return null;
     }
   }
   return null
