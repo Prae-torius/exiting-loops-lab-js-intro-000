@@ -21,6 +21,7 @@ function keepGoing(array, changeValue, skipValue) {
 }
 
 function findBy(array, findFn) {
+  let resultAray = 
   for (let i = 0; i < array.length; i++) {
     if (array[i] === findFn) {
       return;
