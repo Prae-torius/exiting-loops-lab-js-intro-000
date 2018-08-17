@@ -24,7 +24,7 @@ function findBy(array, findFn) {
   let result = findFn
   for (let i = 0; i < array.length; i++) {
     if (array[i] === result) {
-      return;
+      return result;
     } else {
       return null;
     }
